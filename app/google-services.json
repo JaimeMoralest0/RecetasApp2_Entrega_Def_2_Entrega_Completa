@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581194068433",
+    "project_id": "recetaapp2",
+    "storage_bucket": "recetaapp2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581194068433:android:0165325779b0e1aea070f0",
+        "android_client_info": {
+          "package_name": "com.example.aplicacion1_entrega_def"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581194068433-r4m5pfc8u1r733kmr6ndqcc6h7u8tmm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplicacion1_entrega_def",
+            "certificate_hash": "2a89ce5f022ee62f5eb7bf18cdf71544133d892f"
+          }
+        },
+        {
+          "client_id": "581194068433-kcabjn2dbcfrke9c3k73ait5p3f587md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU-yrt_qvALhMlrCr8NMvOFurJ6HhiGAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581194068433-kcabjn2dbcfrke9c3k73ait5p3f587md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

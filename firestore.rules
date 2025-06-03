@@ -1,0 +1,17 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regla para la colección de usuarios y sus favoritos
+    match /users/{userId} {
+      // Permitir acceso solo al usuario autenticado
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Reglas para la subcolección de favoritos
+      match /favorites/{favoriteId} {
+        // Permitir acceso solo al usuario autenticado
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+} 
